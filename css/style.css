@@ -207,28 +207,3 @@ Las etiquetas en bloque, nos permiten modificar su estructura.*/
     padding-bottom: 0px;
     color: #727171
 }
-
-/**{
-    margin:0;
-    padding: 1px;
-    box-sizing: border-box;
-}
-li{
-    list-style: none;
-}
-.blanco{
-    color: white;
-}
-.amarillo{
-    color: #FFC700;
-}
-.grande{
-    font-size: 70px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-p{
-    color: #ffffff;
-}
-body{
-    background-color: #E41010;
-}*/
