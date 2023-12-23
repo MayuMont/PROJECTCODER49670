@@ -1,0 +1,234 @@
+/*ESTRUCTURA DE CSS
+SPV=
+    °SELECTOR= ETIQUETA/CASE/ID
+    °PROPIEDAD= NOMBRE QUE DA ESTRUCTURA
+    °VALOR= TAMAÑO O VALOR QUE ADQUIERE ESA PROPIEDAD
+*/
+
+/*RESET CSS= ESTILOS RESETEADOS PARA TRABAJAR DESDE CERO
+PARTIMOS DEL LLAMADO "*" = TODO EL DOC HTML*/
+
+/*
+LOS ATRIBUTOS LOS LLAMAMOS DE LA SIGUIENTE MANERA:
+                ID= #
+                CLASS= 
+                ETIQUETA/SELECTOR= POR SU SIMPLE NOMBRE
+*/
+
+/*
+/////////////////////////////////////////////////
+ESTILOS RESET
+/////////////////////////////////////////////////
+*/
+
+/*TIPOGRAFIA OPENSANS= HEADER Y FOOTER*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /*background-color: #E41010*/;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    font-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+#body { 
+    max-width: 1440px;
+}
+
+#main {
+    min-height: 100%vh;
+}
+
+#nav { 
+    margin: 0 auto;
+}
+
+/*
+/////////////////////////////////////////////////
+ESTILOS DEL NAVBAR
+/////////////////////////////////////////////////
+*/
+
+#nav {
+    background-color: #E41010;
+    width: 100%;
+    height: 70px;
+}
+
+#nav ul li {
+    display: inline-block;
+}
+
+/*
+/////////////////////////////////////////////////
+ESTILOS DEL INDEX / MAIN
+/////////////////////////////////////////////////
+*/
+
+.textPortd {
+    background-color: #E41010;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.titlePortada {
+    color: white;
+
+}
+
+.titlePortadaAmarillo {
+    color: #FFC700;
+}
+
+.textCuerpo {
+    color: white;
+    font-size: 15px;
+}
+
+.imagenPortd { 
+    width: 640px;
+    height: 560px;
+}
+
+.imagenPortd img { 
+    width: 100%;
+    height: 100%;
+}
+
+/*
+/////////////////////////////////////////////////
+ESTILOS DEL FOOTER
+/////////////////////////////////////////////////
+*/
+
+#footer {
+    margin-top: auto;
+    width: 100%; /*EL 100% RESPECTO AL ANCHO DISPONIBLE EN PANTALLA*/
+    height: auto; /*GENERA EL ESPACIO RESPECTO AL CONTENIDO ARROJADO ADENTRO*/
+    background-color: white;
+}
+
+.footerLogoImg {
+    background-color: white;
+    width: 155px;
+    height: 55px;
+}
+
+.footerLinks { 
+    color: #121212;
+}
+
+/*Las etiquetas en línea no nos permiten modificar su estructura.
+Las etiquetas en bloque, nos permiten modificar su estructura.*/
+
+/*.pruebaEtq1 {
+    display: inline-block;
+    font-size: 10px;
+}
+.pruebaEtq2 {
+    display: inline-block;
+}
+.pruebaEtq3 { 
+    height: 100px;
+    width: 200px;
+}
+.pruebaEtq4 {
+
+}*/
+
+/*APRENDEMOS MODELO DE CAJAS*/
+.boxModel {
+    width: 100%; /*Ancho del elemento*/
+    height: 100vh; /*Alto del elemento*/ /*
+                                            vh= 100% DISPONIBLE DE ALTO DE LA VISTA EN PANTALLA.
+                                            WH= 100% DISPONIBLE DEL ANCHO DE LA VISTA EN PANTALLA.
+                                            */
+}
+
+/*.box {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(206, 114, 28);
+    margin: 30px 40px 50px 60px;
+    /* TOP/RIGHT/BOTTOM/LEFT
+                    1 VALOR= TODOS SUS LADOS
+                    2 VALORES= PRIMERO TOP Y LUEGO BOTTOM TOP/BOTTOM
+                    3 VALORES= PRIMERO AL TOP Y BOTTOM Y POR ÚLTIMO A LEFT Y RIGHT 
+                    TOP Y BOTTOM DIFERENTES / LEFT Y RIGHT IGUALES.
+                    4 VALORES= ESPECIFICO PARA CADA LADO
+                    */
+    /*overflow: auto;
+    padding: 20px; /*ES EL RELLENO INTERNO*/
+    /*border: 1px dotted white; /*3 VALORES=
+                                        PRIMERO APLICA AL TAMAÑO
+                                        SEGUNDO AL TIPO/ESTILO DE BORDE
+                                        TERCERO EL COLOR*/
+
+    /*TANTO PARA EL MARGIN PADDING Y BORDER:
+                                        PODEMOS ESPECIFICAR O SUS 4 LADOS, O 
+                                        LLAMAR POR CADA PROPIEDAD A SUS LADOS TAMBIÉN*/
+/*}*/
+
+.boxImg {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.boxImg img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute; /*delimita a los 4 lados*/
+}
+
+.boxImg h2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0px;
+    color: #727171
+}
+
+/**{
+    margin:0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.blanco{
+    color: white;
+}
+.amarillo{
+    color: #FFC700;
+}
+.grande{
+    font-size: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color: #ffffff;
+}
+body{
+    background-color: #E41010;
+}*/
